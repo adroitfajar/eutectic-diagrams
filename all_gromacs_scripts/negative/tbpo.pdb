@@ -1,0 +1,54 @@
+REMARK  FOR INFORMATIONS, PLEASE CONTACT:                                             
+REMARK  ZOETE VINCENT                                                                 
+REMARK  VINCENT.ZOETE_AT_ISB-SIB.CH                                                   
+REMARK  SWISS INSTITUTE OF BIOINFORMATICS                                             
+REMARK  MOLECULAR MODELING GROUP                                                      
+REMARK  QUARTIER SORGE - BATIMENT GENOPODE                                            
+REMARK  CH-1015 LAUSANNE                                                              
+REMARK  SWITZERLAND                                                                   
+REMARK  T: +41 21 692 4082                                                            
+REMARK ****************************************************************               
+REMARK   DATE:     8/ 1/23      1:43:40      CREATED BY USER: vzoete                  
+ATOM      1  O   HBA     1       0.906   0.026  -0.021  1.00  0.00      HBA 
+ATOM      2  P   HBA     1       2.454   0.026  -0.021  1.00  0.00      HBA 
+ATOM      3  C   HBA     1       2.307   1.499   1.282  1.00  0.00      HBA 
+ATOM      4  C1  HBA     1       2.313   2.796   0.457  1.00  0.00      HBA 
+ATOM      5  C2  HBA     1       2.475   4.045   1.310  1.00  0.00      HBA 
+ATOM      6  C3  HBA     1       2.548   5.290   0.438  1.00  0.00      HBA 
+ATOM      7  C4  HBA     1       2.479  -1.609   1.143  1.00  0.00      HBA 
+ATOM      8  C5  HBA     1       1.275  -2.499   0.765  1.00  0.00      HBA 
+ATOM      9  C6  HBA     1       1.258  -3.864   1.441  1.00  0.00      HBA 
+ATOM     10  C7  HBA     1       0.008  -4.644   1.039  1.00  0.00      HBA 
+ATOM     11  C8  HBA     1       4.284   0.026  -0.021  1.00  0.00      HBA 
+ATOM     12  C9  HBA     1       5.038   0.883   0.996  1.00  0.00      HBA 
+ATOM     13  C10 HBA     1       6.559   0.957   0.892  1.00  0.00      HBA 
+ATOM     14  C11 HBA     1       7.061   2.025   1.869  1.00  0.00      HBA 
+ATOM     15  H   HBA     1       3.033   1.446   2.094  1.00  0.00      HBA 
+ATOM     16  H1  HBA     1       1.331   1.387   1.772  1.00  0.00      HBA 
+ATOM     17  H2  HBA     1       1.379   2.853  -0.116  1.00  0.00      HBA 
+ATOM     18  H3  HBA     1       3.111   2.757  -0.294  1.00  0.00      HBA 
+ATOM     19  H4  HBA     1       3.391   3.971   1.908  1.00  0.00      HBA 
+ATOM     20  H5  HBA     1       1.632   4.133   2.004  1.00  0.00      HBA 
+ATOM     21  H6  HBA     1       3.432   5.262  -0.210  1.00  0.00      HBA 
+ATOM     22  H7  HBA     1       2.613   6.187   1.061  1.00  0.00      HBA 
+ATOM     23  H8  HBA     1       1.661   5.379  -0.197  1.00  0.00      HBA 
+ATOM     24  H9  HBA     1       2.449  -1.258   2.176  1.00  0.00      HBA 
+ATOM     25  H10 HBA     1       3.401  -2.157   0.940  1.00  0.00      HBA 
+ATOM     26  H11 HBA     1       1.265  -2.635  -0.323  1.00  0.00      HBA 
+ATOM     27  H12 HBA     1       0.344  -1.982   1.027  1.00  0.00      HBA 
+ATOM     28  H13 HBA     1       1.271  -3.739   2.529  1.00  0.00      HBA 
+ATOM     29  H14 HBA     1       2.148  -4.437   1.161  1.00  0.00      HBA 
+ATOM     30  H15 HBA     1      -0.901  -4.086   1.291  1.00  0.00      HBA 
+ATOM     31  H16 HBA     1      -0.031  -5.604   1.560  1.00  0.00      HBA 
+ATOM     32  H17 HBA     1      -0.005  -4.838  -0.038  1.00  0.00      HBA 
+ATOM     33  H18 HBA     1       4.540   0.405  -1.020  1.00  0.00      HBA 
+ATOM     34  H19 HBA     1       4.696  -0.987  -0.010  1.00  0.00      HBA 
+ATOM     35  H20 HBA     1       4.797   0.538   2.002  1.00  0.00      HBA 
+ATOM     36  H21 HBA     1       4.707   1.926   0.894  1.00  0.00      HBA 
+ATOM     37  H22 HBA     1       6.868   1.222  -0.124  1.00  0.00      HBA 
+ATOM     38  H23 HBA     1       7.000  -0.014   1.146  1.00  0.00      HBA 
+ATOM     39  H24 HBA     1       6.681   3.014   1.592  1.00  0.00      HBA 
+ATOM     40  H25 HBA     1       8.153   2.074   1.877  1.00  0.00      HBA 
+ATOM     41  H26 HBA     1       6.720   1.817   2.889  1.00  0.00      HBA 
+TER      42      HBA      1
+END

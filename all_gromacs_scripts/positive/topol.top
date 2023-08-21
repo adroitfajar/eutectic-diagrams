@@ -1,0 +1,12 @@
+#include "charmm36-jul2022.ff/forcefield.itp"
+
+#include "ddtu.itp"
+
+[ system ]
+; Name
+ddtu and glycine in DES xE=0.60 TE=319
+
+[ molecules ]
+; Compound        #mols
+ddtu              600
+glycine           400

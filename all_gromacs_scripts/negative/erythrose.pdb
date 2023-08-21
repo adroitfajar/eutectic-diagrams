@@ -1,0 +1,29 @@
+REMARK  FOR INFORMATIONS, PLEASE CONTACT:                                             
+REMARK  ZOETE VINCENT                                                                 
+REMARK  VINCENT.ZOETE_AT_ISB-SIB.CH                                                   
+REMARK  SWISS INSTITUTE OF BIOINFORMATICS                                             
+REMARK  MOLECULAR MODELING GROUP                                                      
+REMARK  QUARTIER SORGE - BATIMENT GENOPODE                                            
+REMARK  CH-1015 LAUSANNE                                                              
+REMARK  SWITZERLAND                                                                   
+REMARK  T: +41 21 692 4082                                                            
+REMARK ****************************************************************               
+REMARK   DATE:     8/ 1/23      1:44:40      CREATED BY USER: vzoete                  
+ATOM      1  O   HBD     1       2.955   0.911   0.648  1.00  0.00      HBD 
+ATOM      2  C   HBD     1       2.381   0.086  -0.054  1.00  0.00      HBD 
+ATOM      3  C1  HBD     1       3.126  -0.903  -0.939  1.00  0.00      HBD 
+ATOM      4  C2  HBD     1       2.791  -0.620  -2.407  1.00  0.00      HBD 
+ATOM      5  C3  HBD     1       3.605  -1.512  -3.353  1.00  0.00      HBD 
+ATOM      6  O1  HBD     1       3.269  -1.224  -4.708  1.00  0.00      HBD 
+ATOM      7  O2  HBD     1       1.390  -0.833  -2.653  1.00  0.00      HBD 
+ATOM      8  O3  HBD     1       4.530  -0.836  -0.714  1.00  0.00      HBD 
+ATOM      9  H   HBD     1       1.279   0.021  -0.078  1.00  0.00      HBD 
+ATOM     10  H1  HBD     1       2.784  -1.902  -0.650  1.00  0.00      HBD 
+ATOM     11  H2  HBD     1       2.996   0.431  -2.649  1.00  0.00      HBD 
+ATOM     12  H3  HBD     1       3.374  -2.568  -3.180  1.00  0.00      HBD 
+ATOM     13  H4  HBD     1       4.681  -1.362  -3.230  1.00  0.00      HBD 
+ATOM     14  H5  HBD     1       2.300  -1.114  -4.744  1.00  0.00      HBD 
+ATOM     15  H6  HBD     1       1.195  -1.780  -2.530  1.00  0.00      HBD 
+ATOM     16  H7  HBD     1       4.742   0.101  -0.527  1.00  0.00      HBD 
+TER      17      HBD      1
+END

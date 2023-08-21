@@ -1,0 +1,12 @@
+#include "charmm36-jul2022.ff/forcefield.itp"
+
+#include "tbpo.itp"
+
+[ system ]
+; Name
+tbpo and erythrose in DES xE=0.44 TE=253
+
+[ molecules ]
+; Compound        #mols
+tbpo              440
+erythrose         560

@@ -1,0 +1,69 @@
+REMARK  FOR INFORMATIONS, PLEASE CONTACT:                                             
+REMARK  ZOETE VINCENT                                                                 
+REMARK  VINCENT.ZOETE_AT_ISB-SIB.CH                                                   
+REMARK  SWISS INSTITUTE OF BIOINFORMATICS                                             
+REMARK  MOLECULAR MODELING GROUP                                                      
+REMARK  QUARTIER SORGE - BATIMENT GENOPODE                                            
+REMARK  CH-1015 LAUSANNE                                                              
+REMARK  SWITZERLAND                                                                   
+REMARK  T: +41 21 692 4082                                                            
+REMARK ****************************************************************               
+REMARK   DATE:     7/31/23      2:49: 6      CREATED BY USER: vzoete                  
+ATOM      1  C   HBD     1       1.002   0.025  -0.102  1.00  0.00      HBD 
+ATOM      2  C1  HBD     1       2.518   0.019  -0.100  1.00  0.00      HBD 
+ATOM      3  C2  HBD     1       3.041  -1.324   0.389  1.00  0.00      HBD 
+ATOM      4  C3  HBD     1       4.560  -1.334   0.391  1.00  0.00      HBD 
+ATOM      5  C4  HBD     1       5.074  -2.677   0.882  1.00  0.00      HBD 
+ATOM      6  C5  HBD     1       6.594  -2.686   0.881  1.00  0.00      HBD 
+ATOM      7  C6  HBD     1       7.102  -4.028   1.371  1.00  0.00      HBD 
+ATOM      8  C7  HBD     1       8.619  -4.034   1.370  1.00  0.00      HBD 
+ATOM      9  C8  HBD     1       9.129  -5.376   1.858  1.00  0.00      HBD 
+ATOM     10  C9  HBD     1      10.646  -5.381   1.859  1.00  0.00      HBD 
+ATOM     11  C10 HBD     1      11.156  -6.724   2.347  1.00  0.00      HBD 
+ATOM     12  C11 HBD     1      12.674  -6.729   2.348  1.00  0.00      HBD 
+ATOM     13  C12 HBD     1      13.186  -8.074   2.837  1.00  0.00      HBD 
+ATOM     14  C13 HBD     1      14.706  -8.088   2.842  1.00  0.00      HBD 
+ATOM     15  C14 HBD     1      15.224  -9.434   3.330  1.00  0.00      HBD 
+ATOM     16  C15 HBD     1      16.750  -9.441   3.333  1.00  0.00      HBD 
+ATOM     17  C16 HBD     1      17.305 -10.780   3.819  1.00  0.00      HBD 
+ATOM     18  C17 HBD     1      18.818 -10.779   3.818  1.00  0.00      HBD 
+ATOM     19  O   HBD     1      19.359 -11.944   4.241  1.00  0.00      HBD 
+ATOM     20  O1  HBD     1      19.515  -9.833   3.475  1.00  0.00      HBD 
+ATOM     21  H   HBD     1       0.628   0.990  -0.454  1.00  0.00      HBD 
+ATOM     22  H1  HBD     1       0.614  -0.151   0.906  1.00  0.00      HBD 
+ATOM     23  H2  HBD     1       0.614  -0.758  -0.761  1.00  0.00      HBD 
+ATOM     24  H3  HBD     1       2.890   0.822   0.547  1.00  0.00      HBD 
+ATOM     25  H4  HBD     1       2.890   0.217  -1.113  1.00  0.00      HBD 
+ATOM     26  H5  HBD     1       2.667  -2.129  -0.256  1.00  0.00      HBD 
+ATOM     27  H6  HBD     1       2.669  -1.524   1.402  1.00  0.00      HBD 
+ATOM     28  H7  HBD     1       4.939  -0.533   1.037  1.00  0.00      HBD 
+ATOM     29  H8  HBD     1       4.937  -1.141  -0.621  1.00  0.00      HBD 
+ATOM     30  H9  HBD     1       4.696  -3.481   0.238  1.00  0.00      HBD 
+ATOM     31  H10 HBD     1       4.701  -2.872   1.895  1.00  0.00      HBD 
+ATOM     32  H11 HBD     1       6.969  -1.883   1.527  1.00  0.00      HBD 
+ATOM     33  H12 HBD     1       6.965  -2.490  -0.132  1.00  0.00      HBD 
+ATOM     34  H13 HBD     1       6.725  -4.829   0.724  1.00  0.00      HBD 
+ATOM     35  H14 HBD     1       6.728  -4.224   2.383  1.00  0.00      HBD 
+ATOM     36  H15 HBD     1       8.996  -3.233   2.018  1.00  0.00      HBD 
+ATOM     37  H16 HBD     1       8.994  -3.836   0.359  1.00  0.00      HBD 
+ATOM     38  H17 HBD     1       8.754  -6.177   1.209  1.00  0.00      HBD 
+ATOM     39  H18 HBD     1       8.754  -5.574   2.869  1.00  0.00      HBD 
+ATOM     40  H19 HBD     1      11.022  -4.580   2.508  1.00  0.00      HBD 
+ATOM     41  H20 HBD     1      11.022  -5.182   0.848  1.00  0.00      HBD 
+ATOM     42  H21 HBD     1      10.780  -7.525   1.697  1.00  0.00      HBD 
+ATOM     43  H22 HBD     1      10.781  -6.922   3.359  1.00  0.00      HBD 
+ATOM     44  H23 HBD     1      13.050  -5.927   2.996  1.00  0.00      HBD 
+ATOM     45  H24 HBD     1      13.050  -6.529   1.337  1.00  0.00      HBD 
+ATOM     46  H25 HBD     1      12.807  -8.872   2.187  1.00  0.00      HBD 
+ATOM     47  H26 HBD     1      12.807  -8.269   3.847  1.00  0.00      HBD 
+ATOM     48  H27 HBD     1      15.081  -7.287   3.490  1.00  0.00      HBD 
+ATOM     49  H28 HBD     1      15.081  -7.889   1.831  1.00  0.00      HBD 
+ATOM     50  H29 HBD     1      14.847 -10.232   2.680  1.00  0.00      HBD 
+ATOM     51  H30 HBD     1      14.847  -9.629   4.341  1.00  0.00      HBD 
+ATOM     52  H31 HBD     1      17.115  -8.629   3.974  1.00  0.00      HBD 
+ATOM     53  H32 HBD     1      17.115  -9.229   2.320  1.00  0.00      HBD 
+ATOM     54  H33 HBD     1      16.952 -11.580   3.159  1.00  0.00      HBD 
+ATOM     55  H34 HBD     1      16.952 -10.971   4.838  1.00  0.00      HBD 
+ATOM     56  H35 HBD     1      18.720 -12.635   4.492  1.00  0.00      HBD 
+TER      57      HBD      1
+END

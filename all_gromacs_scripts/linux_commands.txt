@@ -1,0 +1,106 @@
+********** MD simulation of DES using GROMACS **********
+; Author: Adroit T.N. Fajar, Ph.D.
+; Note: If you find this workflow is helpful, please cite the corresponding paper!
+
+;;; Step 0: Prepare the input files
+; Draw chemical structures of small molecules on AVOGADRO
+; Save the structure files as MOL2 format
+; Upload the file to SwissParam to get topology and parameter (PDB and ITP files)
+--> SwissParam URL: https://www.swissparam.ch/
+; Download all-atom force field such as CHARMM36
+--> CHARMM36 URL: http://mackerell.umaryland.edu/charmm_ff.shtml
+; Create a TOP file
+"""
+#include "charmm36-jul2022.ff/forcefield.itp"
+
+#include "hba.itp"
+
+[ system ]
+; Name
+hba and hbd in DES
+
+[ molecules ]
+; Compound        #mols
+hba               000
+hbd               000
+"""
+; Change the name of residue from LIG to HBA/HBD
+; Modify the first ITP file ('hba.itp') by including the second ITP file
+--> #include "hbd.itp"
+--> This line should be placed exactly before the [moleculetype] section of the 'hba.itp' file
+
+
+;;; Step 1: Prepare molecules inside a simulation box
+; Create a box with with size of 0 0 0 (nm) with 000 molecules of hba
+gmx insert-molecules -ci hba.pdb -box 0 0 0 -nmol 000 -o box_hba.gro
+
+; Insert the second compound -- 000 molecules of hbd
+gmx insert-molecules -f box_hba.gro -ci hbd.pdb -nmol 000 -o box_hba_hbd.gro
+
+>>> DONE! we got a box with size of 0 0 0 nm with 000 molecules of hba and 000 molecules of hbd
+
+
+;;; Step 2: Energy minimization
+; Prepare the MDP ('em.mdp') file (parameters of the simulation) -- maxwarn to supress warning!
+; Prepare the TPR file for energy minimization ('em.tpr')
+gmx grompp -f em.mdp -c box_hba_hbd.gro -p topol.top -o em.tpr -maxwarn 0
+
+; Run the energy minimization
+gmx mdrun -deffnm em
+
+; Analyze the result of energy minimization
+gmx energy -f em.edr -o potential.xvg
+--> select 10 (Potential) then 0 to terminate
+
+>>> DONE! Energy minimization has converged!
+
+
+;;; Step 3: Equilibration
+; Prepare the MDP ('nvt.mdp) file containing necessary parameters
+--> this step is NVT Ensemble: constant Number of particles, Volume, and Temperature
+--> Goal: to set the initial temperature of the system based on kinetic energy
+
+; Call grompp and mdrun just as we did at the EM step
+gmx grompp -f nvt.mdp -c em.gro -r em.gro -p topol.top -o nvt.tpr -maxwarn 0
+gmx mdrun -deffnm nvt
+
+; Analyze the temperature progression
+gmx energy -f nvt.edr -o temperature.xvg
+--> select 15 (Temperature) then 0 to terminate
+
+; Prepare the MDP ('npt.mdp') file containing necessary parameters
+--> this step is NPT Ensemble: constant Number of particles, Pressure, and Temperature
+--> Goal: to set the initial pressure of the system to match experimental conditions
+
+; Call grompp and mdrun just as we did for NVT equilibration
+gmx grompp -f npt.mdp -c nvt.gro -r nvt.gro -t nvt.cpt -p topol.top -o npt.tpr -maxwarn 0
+gmx mdrun -deffnm npt
+
+; Analyze the pressure progression
+gmx energy -f npt.edr -o pressure.xvg
+
+; Analyze the density progression
+gmx energy -f npt.edr -o density.xvg
+
+--> DONE! The system is ready for the actual MD simulation
+
+======= long simulation =======
+;;; Step 4: Production MD
+; Prepare the MDP ('md.mdp') file containing necessary parameters
+--> This is the actual parameters for MD the production MD simulation
+
+; Run the MD simulation using grompp and mdrun
+gmx grompp -f md.mdp -c npt.gro -t npt.cpt -p topol.top -o md.tpr -maxwarn 0
+gmx mdrun -deffnm md
+
+========== terminate ==========
+
+;;; Step 5: Analyze the results
+
+; Analyze the RDF
+gmx rdf -s md.gro -f md.xtc -o res-res_rdf.xvg
+
+; Analyze hydrogen bonds
+gmx hbond -s md.tpr -f md.xtc -num res-res_hbnum.xvg
+
+; Create a movie using VMD or Chimera; record using Screen Recorder Pro
