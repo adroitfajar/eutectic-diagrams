@@ -1,0 +1,111 @@
+smiles,name
+CP(C)(C)=O,trimethylphosphine oxide
+O=P(CC)(CC)CC,triethylphosphine oxide
+O=P(CCC)(CCC)CCC,tripropylphosphine oxide
+O=P(CCCC)(CCCC)CCCC,tributylphosphine oxide
+O=P(CCCCC)(CCCCC)CCCCC,tripentylphosphine oxide
+O=P(CCCCCC)(CCCCCC)CCCCCC,trihexylphosphine oxide
+O=P(CCCCCCC)(CCCCCCC)CCCCCCC,triheptylphosphine oxide
+O=P(CCCCCCCC)(CCCCCCCC)CCCCCCCC,trioctylphosphine oxide
+O=P(CCCCCCCCC)(CCCCCCCCC)CCCCCCCCC,trinonylphosphine oxide
+O=P(CCCCCCCCCC)(CCCCCCCCCC)CCCCCCCCCC,tris(decyl)phosphine oxide
+CS(C)=O,(methylsulfinyl)methane
+CS(CC)=O,(methylsulfinyl)ethane
+CS(CCC)=O,1-(methylsulfinyl)propane
+CS(CCCC)=O,1-(methylsulfinyl)butane
+CS(CCCCC)=O,1-(methylsulfinyl)pentane
+CS(CCCCCC)=O,1-(methylsulfinyl)hexane
+CS(CCCCCCC)=O,1-(methylsulfinyl)heptane
+CS(CCCCCCCC)=O,1-(methylsulfinyl)octane
+CS(CCCCCCCCC)=O,1-(methylsulfinyl)nonane
+CS(CCCCCCCCCC)=O,1-(methylsulfinyl)decane
+CS(CCCCCCCCCCC)=O,1-(methylsulfinyl)undecane
+CS(CCCCCCCCCCCC)=O,1-(methylsulfinyl)dodecane
+CS(CCCCCCCCCCCCC)=O,1-(methylsulfinyl)tridecane
+O=S(CC)CC,(ethylsulfinyl)ethane
+O=S(CCC)CCC,1-(propylsulfinyl)propane
+O=S(CCCC)CCCC,1-(butylsulfinyl)butane
+O=S(CCCCC)CCCCC,1-(pentylsulfinyl)pentane
+O=S(CCCCCC)CCCCCC,1-(hexylsulfinyl)hexane
+O=S(CCCCCCC)CCCCCCC,1-(heptylsulfinyl)heptane
+O=S(CCCCCCCC)CCCCCCCC,1-(octylsulfinyl)octane
+O=S(CCCCCCCCC)CCCCCCCCC,1-(nonylsulfinyl)nonane
+O=S(CCCCCCCCCC)CCCCCCCCCC,1-(decylsulfinyl)decane
+O=S(CCCCCCCCCCC)CCCCCCCCCCC,1-(undecylsulfinyl)undecane
+O=S(CCCCCCCCCCCC)CCCCCCCCCCCC,1-(dodecylsulfinyl)dodecane
+O=S(CCCCCCCCCCCCC)CCCCCCCCCCCCC,1-(tridecylsulfinyl)tridecane
+O=C(N(C)C)N(C)C,"1,1,3,3-tetramethylurea"
+O=C(N(C)CC)N(C)CC,"1,3-diethyl-1,3-dimethylurea"
+O=C(N(CC)CC)N(CC)CC,"1,1,3,3-tetraethylurea"
+O=C(N(CC)CCC)N(CC)CCC,"1,3-diethyl-1,3-dipropylurea"
+O=C(N(CCC)CCC)N(CCC)CCC,"1,1,3,3-tetrapropylurea"
+O=C(N(CCC)CCCC)N(CCC)CCCC,"1,3-dibutyl-1,3-dipropylurea"
+O=C(N(CCCC)CCCC)N(CCCC)CCCC,"1,1,3,3-tetrabutylurea"
+O=C(N(CCCC)CCCCC)N(CCCC)CCCCC,"1,3-dibutyl-1,3-dipentylurea"
+O=C(N(CCCCC)CCCCC)N(CCCCC)CCCCC,"1,1,3,3-tetrapentylurea"
+O=C(N(CCCCC)CCCCCC)N(CCCCC)CCCCCC,"1,3-dihexyl-1,3-dipentylurea"
+O=C(N(CCCCCC)CCCCCC)N(CCCCCC)CCCCCC,"1,1,3,3-tetrahexylurea"
+O=C(N(CCCCCC)CCCCCCC)N(CCCCCC)CCCCCCC,"1,3-diheptyl-1,3-dihexylurea"
+S=C(N(C)C)N(C)C,"1,1,3,3-tetramethylthiourea"
+S=C(N(CC)C)N(C)CC,"1,3-diethyl-1,3-dimethylthiourea"
+S=C(N(CCC)C)N(C)CCC,"1,3-dimethyl-1,3-dipropylthiourea"
+S=C(N(CCCC)C)N(C)CCCC,"1,3-dibutyl-1,3-dimethylthiourea"
+S=C(N(CCCCC)C)N(C)CCCCC,"1,3-dimethyl-1,3-dipentylthiourea"
+S=C(N(CCCCCC)C)N(C)CCCCCC,"1,3-dihexyl-1,3-dimethylthiourea"
+S=C(N(CCCCCCC)C)N(C)CCCCCCC,"1,3-diheptyl-1,3-dimethylthiourea"
+S=C(N(CCCCCCCC)C)N(C)CCCCCCCC,"1,3-dimethyl-1,3-dioctylthiourea"
+S=C(N(CC)C)N(C)C,"1-ethyl-1,3,3-trimethylthiourea"
+S=C(N(CCC)C)N(C)C,"1,1,3-trimethyl-3-propylthiourea"
+S=C(N(CCCC)C)N(C)C,"1-butyl-1,3,3-trimethylthiourea"
+S=C(N(CCCCC)C)N(C)C,"1,1,3-trimethyl-3-pentylthiourea"
+S=C(N(CCCCCC)C)N(C)C,"1-hexyl-1,3,3-trimethylthiourea"
+NCC(O)=O,Glycine
+N[C@@H](C)C(O)=O,Alanine
+O=C(O)[C@H]1NCCC1,Proline
+N[C@@H](C(C)C)C(O)=O,Valine
+N[C@@H](CC(C)C)C(O)=O,Leucine
+N[C@@H]([C@@H](C)CC)C(O)=O,Isoleucine
+N[C@@H](CCSC)C(O)=O,Methionine
+N[C@@H](CC1=CC=CC=C1)C(O)=O,Phenylalanine
+N[C@@H](CC1=CC=C(O)C=C1)C(O)=O,Tyrosine
+N[C@@H](CC1=CNC2=C1C=CC=C2)C(O)=O,Tryptophan
+N[C@@H](CO)C(O)=O,Serine
+N[C@@H]([C@H](O)C)C(O)=O,Threonine
+N[C@@H](CS)C(O)=O,Cysteine
+N[C@@H](CC(N)=O)C(O)=O,Asparagine
+N[C@@H](CCC(N)=O)C(O)=O,Glutamine
+N[C@@H](CCCCN)C(O)=O,Lysine
+N[C@@H](CC1=CNC=N1)C(O)=O,Histidine
+N[C@@H](CCCNC(N)=N)C(O)=O,Arginine
+N[C@@H](CC(O)=O)C(O)=O,Aspartic acid
+N[C@@H](CCC(O)=O)C(O)=O,Glutamic acid
+OC(CO)C=O,Glyceraldehyde
+O=C[C@@H]([C@@H](CO)O)O,Erythrose
+O=C[C@H]([C@@H](CO)O)O,Threose
+O=C[C@@H]([C@@H]([C@@H](CO)O)O)O,Ribose
+O=C[C@H]([C@@H]([C@@H](CO)O)O)O,Arabinose
+O=C[C@@H]([C@H]([C@@H](CO)O)O)O,Xylose
+O=C[C@H]([C@H]([C@@H](CO)O)O)O,Lyxose
+O=C[C@@H]([C@@H]([C@@H]([C@@H](CO)O)O)O)O,Allose
+O=C[C@H]([C@@H]([C@@H]([C@@H](CO)O)O)O)O,Altrose
+O=C[C@@H]([C@H]([C@@H]([C@@H](CO)O)O)O)O,Glucose
+O=C[C@H]([C@H]([C@@H]([C@@H](CO)O)O)O)O,Mannose
+O=C[C@@H]([C@@H]([C@H]([C@@H](CO)O)O)O)O,Gulose
+O=C[C@H]([C@@H]([C@H]([C@@H](CO)O)O)O)O,Idose
+O=C[C@@H]([C@H]([C@H]([C@@H](CO)O)O)O)O,Galactose
+O=C[C@H]([C@H]([C@H]([C@@H](CO)O)O)O)O,Talose
+O=C(CO)CO,Dihydroxyacetone
+OCC([C@@H](CO)O)=O,Erythrulose
+OCC([C@@H]([C@@H](CO)O)O)=O,Ribulose
+OCC([C@H]([C@@H](CO)O)O)=O,Xylulose
+OCC([C@@H]([C@@H]([C@@H](CO)O)O)O)=O,Psicose
+OCC([C@H]([C@@H]([C@@H](CO)O)O)O)=O,Fructose
+OCC([C@@H]([C@H]([C@@H](CO)O)O)O)=O,Sorbose
+OCC([C@H]([C@H]([C@@H](CO)O)O)O)=O,Tagatose
+CCCCCCCCCCCC(O)=O,Lauric acid
+CCCCCCCCCCCCCC(O)=O,Myristic acid
+CCCCCCCCCCCCCCCC(O)=O,Palmitic acid
+CCCCCCCCCCCCCCCCCC(O)=O,Stearic acid
+CCCCCCCCCCCCCCCCCCCC(O)=O,Arachidic acid
+CCCCCCCCCCCCCCCCCCCCCCCC(O)=O,Lignoceric acid
+CC(C)CCC[C@@H](C)[C@H]1CC[C@@]2([H])[C@]3([H])CC=C4C[C@@H](O)CC[C@]4(C)[C@@]3([H])CC[C@]12C,Cholesterol
