@@ -6,7 +6,7 @@ If you use scripts or datasets in this repository, please cite the following pap
 
 Adroit T.N. Fajar, Takafumi Hanada, Aditya D. Hartono, Masahiro Goto (2024).
 Estimating the phase diagrams of deep eutectic solvents within an extensive chemical space.
-Communications Chemistry volume 7, 27.
+Communications Chemistry, 7, 27.
 https://www.nature.com/articles/s42004-024-01116-3
 
 # Extended Data:
